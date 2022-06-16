@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class Calculadora {
     // Operaciones
     public  static Integer suma( Integer a, Integer b) {
