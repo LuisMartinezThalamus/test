@@ -13,6 +13,11 @@ public class Calculadora {
             Integer b = new Integer(arg[2]);
             System.out.println("La suma es "+suma(a,b));
         }
+        if ("potencia".equals(arg[0])){
+            Double a = new Double(arg[1]);
+            Double b = new Double(arg[2]);
+            System.out.println("La potencia es "+potencia(a,b));
+        }
         
     }
     
